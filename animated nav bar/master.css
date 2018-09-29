@@ -1,1 +1,83 @@
 
+html , body
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+body
+{
+    background: url(Game-Mania.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+h1
+{
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: "Playfair Display";
+    font-size: 48px;
+    font-weight: lighter;
+
+}
+.toggle-btn
+{
+    position: fixed;
+    margin: 1.4em;
+    padding: 1em;
+    right: 0;
+    width: 40px;
+    height: 12px;
+    z-index: 1;
+
+}
+span.one
+{
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: #fff;
+}
+span.two
+{
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    margin-top: 12px;
+    background-color: #fff;
+}
+.menu
+{
+    z-index: 0;
+    position: absolute;
+    background: #101010;
+    width: 100%;
+    height: 100vh;
+    top: -100%;
+
+
+}
+.data
+{
+    padding: 8em 0 0 2em;
+text-align: left;
+}
+ul
+{
+list-style: none;
+}
+
+a
+{
+ text-decoration: none;
+ color: #fff;
+ font-family:Poppins;
+}
+li
+{
+    font-size: 42px;
+}
+
